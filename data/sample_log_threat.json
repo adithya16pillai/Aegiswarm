@@ -1,0 +1,49 @@
+{
+    "logs": [
+      {
+        "timestamp": "2025-04-16T12:00:00Z",
+        "source_ip": "192.168.1.30",
+        "destination_ip": "10.0.0.8",
+        "source_port": 61000,
+        "destination_port": 22,
+        "protocol": "SSH",
+        "event_type": "login",
+        "status": "failed",
+        "username": "root",
+        "location": "North Korea",
+        "bytes_sent": 1024,
+        "bytes_received": 0,
+        "process_name": "ssh_brute"
+      },
+      {
+        "timestamp": "2025-04-16T12:02:10Z",
+        "source_ip": "192.168.1.30",
+        "destination_ip": "8.8.4.4",
+        "source_port": 61001,
+        "destination_port": 80,
+        "protocol": "HTTP",
+        "event_type": "file_download",
+        "status": "success",
+        "filename": "exploit_toolkit.exe",
+        "location": "North Korea",
+        "bytes_sent": 500,
+        "bytes_received": 6000000,
+        "process_name": "mal_downloader"
+      },
+      {
+        "timestamp": "2025-04-16T12:05:00Z",
+        "source_ip": "192.168.1.30",
+        "destination_ip": "10.10.10.10",
+        "source_port": 61002,
+        "destination_port": 445,
+        "protocol": "SMB",
+        "event_type": "lateral_movement",
+        "status": "success",
+        "location": "North Korea",
+        "bytes_sent": 1500,
+        "bytes_received": 5000,
+        "process_name": "worm.exe"
+      }
+    ]
+  }
+      

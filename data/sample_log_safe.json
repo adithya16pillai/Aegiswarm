@@ -1,0 +1,34 @@
+{
+    "logs": [
+      {
+        "timestamp": "2025-04-16T09:00:00Z",
+        "source_ip": "192.168.1.10",
+        "destination_ip": "172.217.5.110",
+        "source_port": 54000,
+        "destination_port": 443,
+        "protocol": "HTTPS",
+        "event_type": "login",
+        "status": "success",
+        "username": "johndoe",
+        "location": "California, USA",
+        "bytes_sent": 1500,
+        "bytes_received": 8000,
+        "process_name": "auth_service"
+      },
+      {
+        "timestamp": "2025-04-16T09:05:00Z",
+        "source_ip": "192.168.1.10",
+        "destination_ip": "8.8.8.8",
+        "source_port": 54010,
+        "destination_port": 53,
+        "protocol": "DNS",
+        "event_type": "dns_query",
+        "status": "success",
+        "location": "California, USA",
+        "bytes_sent": 50,
+        "bytes_received": 300,
+        "process_name": "dns_resolver"
+      }
+    ]
+  }
+  

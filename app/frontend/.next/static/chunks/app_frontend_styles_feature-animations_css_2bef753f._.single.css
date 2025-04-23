@@ -1,0 +1,951 @@
+/* [project]/app/frontend/styles/feature-animations.css [client] (css) */
+.abc-animation {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.bee {
+  background-color: gold;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.bee.scout {
+  background-color: orange;
+  animation: 8s infinite alternate scoutMove;
+}
+
+.bee.employed1 {
+  animation: 6s infinite alternate employedMove1;
+}
+
+.bee.employed2 {
+  animation: 7s infinite alternate employedMove2;
+}
+
+.bee.onlooker {
+  background-color: #ff0;
+  animation: 5s infinite alternate onlookerMove;
+}
+
+.anomaly {
+  background-color: #f4433680;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.anomaly.anomaly1 {
+  top: 40%;
+  left: 30%;
+}
+
+.anomaly.anomaly2 {
+  top: 60%;
+  left: 70%;
+}
+
+@keyframes scoutMove {
+  0% {
+    top: 10%;
+    left: 10%;
+  }
+
+  25% {
+    top: 80%;
+    left: 40%;
+  }
+
+  50% {
+    top: 30%;
+    left: 80%;
+  }
+
+  75% {
+    top: 60%;
+    left: 20%;
+  }
+
+  100% {
+    top: 20%;
+    left: 60%;
+  }
+}
+
+@keyframes employedMove1 {
+  0% {
+    top: 30%;
+    left: 15%;
+  }
+
+  50% {
+    top: 40%;
+    left: 30%;
+  }
+
+  100% {
+    top: 45%;
+    left: 35%;
+  }
+}
+
+@keyframes employedMove2 {
+  0% {
+    top: 50%;
+    left: 65%;
+  }
+
+  50% {
+    top: 58%;
+    left: 68%;
+  }
+
+  100% {
+    top: 62%;
+    left: 72%;
+  }
+}
+
+@keyframes onlookerMove {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+
+  33% {
+    top: 42%;
+    left: 32%;
+  }
+
+  66% {
+    top: 60%;
+    left: 70%;
+  }
+
+  100% {
+    top: 50%;
+    left: 50%;
+  }
+}
+
+.firefly-animation {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.firefly {
+  background-color: #8b5dff;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  animation: 2s infinite pulse;
+  position: absolute;
+  box-shadow: 0 0 10px 2px #8b5dff;
+}
+
+.firefly.f1 {
+  animation-delay: 0s;
+  top: 30%;
+  left: 20%;
+}
+
+.firefly.f2 {
+  animation-delay: .5s;
+  top: 40%;
+  left: 60%;
+}
+
+.firefly.f3 {
+  animation-delay: 1s;
+  top: 60%;
+  left: 40%;
+}
+
+.firefly.f4 {
+  animation-delay: 1.5s;
+  top: 70%;
+  left: 70%;
+}
+
+.firefly.f5 {
+  animation-delay: 2s;
+  top: 20%;
+  left: 80%;
+}
+
+.connection {
+  transform-origin: 0 0;
+  background-color: #8b5dff99;
+  height: 1px;
+  animation: 4s infinite connectPulse;
+  position: absolute;
+}
+
+.connection.c1 {
+  width: 40%;
+  top: 30%;
+  left: 20%;
+  transform: rotate(30deg);
+}
+
+.connection.c2 {
+  width: 30%;
+  top: 60%;
+  left: 40%;
+  transform: rotate(-20deg);
+}
+
+@keyframes connectPulse {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: .8;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.pso-animation {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.particle {
+  background-color: #fff7d1;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.particle.p1 {
+  animation: 6s infinite particleMove1;
+}
+
+.particle.p2 {
+  animation: 7s infinite particleMove2;
+}
+
+.particle.p3 {
+  animation: 8s infinite particleMove3;
+}
+
+.particle.p4 {
+  animation: 9s infinite particleMove4;
+}
+
+.particle.p5 {
+  animation: 10s infinite particleMove5;
+}
+
+.target {
+  border: 2px solid #f44336;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: 2s infinite targetPulse;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes particleMove1 {
+  0% {
+    top: 10%;
+    left: 10%;
+  }
+
+  50% {
+    top: 47%;
+    left: 48%;
+  }
+
+  100% {
+    top: 52%;
+    left: 52%;
+  }
+}
+
+@keyframes particleMove2 {
+  0% {
+    top: 10%;
+    left: 90%;
+  }
+
+  50% {
+    top: 46%;
+    left: 54%;
+  }
+
+  100% {
+    top: 50%;
+    left: 50%;
+  }
+}
+
+@keyframes particleMove3 {
+  0% {
+    top: 90%;
+    left: 10%;
+  }
+
+  50% {
+    top: 52%;
+    left: 44%;
+  }
+
+  100% {
+    top: 48%;
+    left: 48%;
+  }
+}
+
+@keyframes particleMove4 {
+  0% {
+    top: 90%;
+    left: 90%;
+  }
+
+  50% {
+    top: 54%;
+    left: 52%;
+  }
+
+  100% {
+    top: 50%;
+    left: 50%;
+  }
+}
+
+@keyframes particleMove5 {
+  0% {
+    top: 10%;
+    left: 50%;
+  }
+
+  50% {
+    top: 45%;
+    left: 50%;
+  }
+
+  100% {
+    top: 50%;
+    left: 50%;
+  }
+}
+
+@keyframes targetPulse {
+  0% {
+    opacity: .5;
+    transform: translate(-50%, -50%)scale(.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%)scale(1.2);
+  }
+
+  100% {
+    opacity: .5;
+    transform: translate(-50%, -50%)scale(.8);
+  }
+}
+
+.fss-animation {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.fish {
+  transform-origin: 100%;
+  background-color: #8b5dff;
+  border-radius: 50% 0 0 50%;
+  width: 16px;
+  height: 8px;
+  position: absolute;
+}
+
+.fish.f1 {
+  animation: 8s infinite fishMove1;
+}
+
+.fish.f2 {
+  animation: 9s infinite fishMove2;
+}
+
+.fish.f3 {
+  animation: 7s infinite fishMove3;
+}
+
+.fish.f4 {
+  animation: 10s infinite fishMove4;
+}
+
+.fish.f5 {
+  animation: 6s infinite fishMove5;
+}
+
+.alert {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+
+.alert.a1 {
+  background-color: #f44336b3;
+  top: 30%;
+  left: 70%;
+}
+
+.alert.a2 {
+  background-color: #ff9800b3;
+  top: 50%;
+  left: 30%;
+}
+
+.alert.a3 {
+  background-color: #4caf50b3;
+  top: 70%;
+  left: 60%;
+}
+
+@keyframes fishMove1 {
+  0% {
+    top: 20%;
+    left: 10%;
+    transform: rotate(0);
+  }
+
+  25% {
+    top: 30%;
+    left: 30%;
+    transform: rotate(20deg);
+  }
+
+  50% {
+    top: 25%;
+    left: 60%;
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    top: 30%;
+    left: 70%;
+    transform: rotate(30deg);
+  }
+
+  100% {
+    top: 20%;
+    left: 10%;
+    transform: rotate(0);
+  }
+}
+
+@keyframes fishMove2 {
+  0% {
+    top: 50%;
+    left: 20%;
+    transform: rotate(10deg);
+  }
+
+  25% {
+    top: 45%;
+    left: 25%;
+    transform: rotate(-20deg);
+  }
+
+  50% {
+    top: 50%;
+    left: 35%;
+    transform: rotate(10deg);
+  }
+
+  75% {
+    top: 55%;
+    left: 30%;
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    top: 50%;
+    left: 20%;
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes fishMove3 {
+  0% {
+    top: 70%;
+    left: 60%;
+    transform: rotate(-15deg);
+  }
+
+  25% {
+    top: 65%;
+    left: 65%;
+    transform: rotate(15deg);
+  }
+
+  50% {
+    top: 60%;
+    left: 70%;
+    transform: rotate(-5deg);
+  }
+
+  75% {
+    top: 70%;
+    left: 65%;
+    transform: rotate(25deg);
+  }
+
+  100% {
+    top: 70%;
+    left: 60%;
+    transform: rotate(-15deg);
+  }
+}
+
+@keyframes fishMove4 {
+  0% {
+    top: 40%;
+    left: 80%;
+    transform: rotate(5deg);
+  }
+
+  25% {
+    top: 35%;
+    left: 75%;
+    transform: rotate(-25deg);
+  }
+
+  50% {
+    top: 30%;
+    left: 70%;
+    transform: rotate(15deg);
+  }
+
+  75% {
+    top: 35%;
+    left: 75%;
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    top: 40%;
+    left: 80%;
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes fishMove5 {
+  0% {
+    top: 80%;
+    left: 40%;
+    transform: rotate(-10deg);
+  }
+
+  25% {
+    top: 75%;
+    left: 45%;
+    transform: rotate(20deg);
+  }
+
+  50% {
+    top: 70%;
+    left: 50%;
+    transform: rotate(-20deg);
+  }
+
+  75% {
+    top: 75%;
+    left: 45%;
+    transform: rotate(10deg);
+  }
+
+  100% {
+    top: 80%;
+    left: 40%;
+    transform: rotate(-10deg);
+  }
+}
+
+.gwo-animation {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.wolf {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+
+.wolf.alpha {
+  background-color: #8b5dff;
+  animation: 8s infinite alphaMove;
+}
+
+.wolf.beta {
+  background-color: #a682ff;
+  animation: 8s infinite betaMove;
+}
+
+.wolf.delta {
+  background-color: #b99fff;
+  animation: 8s infinite deltaMove;
+}
+
+.wolf.omega1 {
+  background-color: #cbf;
+  animation: 8s infinite omega1Move;
+}
+
+.wolf.omega2 {
+  background-color: #cbf;
+  animation: 8s infinite omega2Move;
+}
+
+.prey {
+  background-color: #f44336;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: 15s infinite preyMove;
+  position: absolute;
+}
+
+@keyframes alphaMove {
+  0% {
+    top: 30%;
+    left: 50%;
+  }
+
+  25% {
+    top: 50%;
+    left: 53%;
+  }
+
+  50% {
+    top: 45%;
+    left: 55%;
+  }
+
+  75% {
+    top: 40%;
+    left: 52%;
+  }
+
+  100% {
+    top: 30%;
+    left: 50%;
+  }
+}
+
+@keyframes betaMove {
+  0% {
+    top: 35%;
+    left: 45%;
+  }
+
+  25% {
+    top: 52%;
+    left: 48%;
+  }
+
+  50% {
+    top: 48%;
+    left: 50%;
+  }
+
+  75% {
+    top: 45%;
+    left: 47%;
+  }
+
+  100% {
+    top: 35%;
+    left: 45%;
+  }
+}
+
+@keyframes deltaMove {
+  0% {
+    top: 40%;
+    left: 40%;
+  }
+
+  25% {
+    top: 55%;
+    left: 42%;
+  }
+
+  50% {
+    top: 50%;
+    left: 45%;
+  }
+
+  75% {
+    top: 45%;
+    left: 43%;
+  }
+
+  100% {
+    top: 40%;
+    left: 40%;
+  }
+}
+
+@keyframes omega1Move {
+  0% {
+    top: 45%;
+    left: 35%;
+  }
+
+  25% {
+    top: 58%;
+    left: 38%;
+  }
+
+  50% {
+    top: 53%;
+    left: 40%;
+  }
+
+  75% {
+    top: 50%;
+    left: 37%;
+  }
+
+  100% {
+    top: 45%;
+    left: 35%;
+  }
+}
+
+@keyframes omega2Move {
+  0% {
+    top: 35%;
+    left: 60%;
+  }
+
+  25% {
+    top: 52%;
+    left: 58%;
+  }
+
+  50% {
+    top: 48%;
+    left: 55%;
+  }
+
+  75% {
+    top: 40%;
+    left: 57%;
+  }
+
+  100% {
+    top: 35%;
+    left: 60%;
+  }
+}
+
+@keyframes preyMove {
+  0% {
+    top: 80%;
+    left: 80%;
+  }
+
+  20% {
+    top: 60%;
+    left: 70%;
+  }
+
+  40% {
+    top: 50%;
+    left: 60%;
+  }
+
+  60% {
+    top: 45%;
+    left: 50%;
+  }
+
+  80% {
+    top: 40%;
+    left: 40%;
+  }
+
+  100% {
+    top: 30%;
+    left: 30%;
+  }
+}
+
+.ant-animation {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.ant {
+  background-color: #8b5dff;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+}
+
+.ant.ant1 {
+  animation: 10s infinite antMove1;
+}
+
+.ant.ant2 {
+  animation: 12s infinite antMove2;
+}
+
+.ant.ant3 {
+  animation: 8s infinite antMove3;
+}
+
+.logEntry {
+  background-color: #fff7d14d;
+  border-radius: 3px;
+  width: 20px;
+  height: 10px;
+  position: absolute;
+}
+
+.logEntry.log1 {
+  top: 20%;
+  left: 20%;
+}
+
+.logEntry.log2 {
+  top: 40%;
+  left: 60%;
+}
+
+.logEntry.log3 {
+  top: 60%;
+  left: 30%;
+}
+
+.logEntry.log4 {
+  top: 80%;
+  left: 70%;
+}
+
+@keyframes antMove1 {
+  0% {
+    top: 10%;
+    left: 10%;
+  }
+
+  20% {
+    top: 20%;
+    left: 20%;
+  }
+
+  40% {
+    top: 40%;
+    left: 60%;
+  }
+
+  60% {
+    top: 60%;
+    left: 30%;
+  }
+
+  80% {
+    top: 80%;
+    left: 70%;
+  }
+
+  100% {
+    top: 10%;
+    left: 10%;
+  }
+}
+
+@keyframes antMove2 {
+  0% {
+    top: 10%;
+    left: 50%;
+  }
+
+  25% {
+    top: 20%;
+    left: 20%;
+  }
+
+  50% {
+    top: 60%;
+    left: 30%;
+  }
+
+  75% {
+    top: 40%;
+    left: 60%;
+  }
+
+  100% {
+    top: 10%;
+    left: 50%;
+  }
+}
+
+@keyframes antMove3 {
+  0% {
+    top: 30%;
+    left: 80%;
+  }
+
+  33% {
+    top: 40%;
+    left: 60%;
+  }
+
+  66% {
+    top: 80%;
+    left: 70%;
+  }
+
+  100% {
+    top: 30%;
+    left: 80%;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: .4;
+    transform: scale(.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: .4;
+    transform: scale(.8);
+  }
+}
+
+/*# sourceMappingURL=app_frontend_styles_feature-animations_css_2bef753f._.single.css.map*/

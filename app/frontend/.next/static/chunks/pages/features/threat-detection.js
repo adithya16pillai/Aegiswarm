@@ -1,0 +1,9 @@
+__turbopack_load_page_chunks__("/features/threat-detection", [
+  "static/chunks/node_modules_next_b7851eaa._.js",
+  "static/chunks/node_modules_react-dom_82bb97c6._.js",
+  "static/chunks/node_modules_2a5cf4bb._.js",
+  "static/chunks/[root-of-the-server]__efc10bbc._.js",
+  "static/chunks/app_frontend_styles_72d30d51._.css",
+  "static/chunks/app_frontend_pages_features_threat-detection_tsx_5771e187._.js",
+  "static/chunks/app_frontend_pages_features_threat-detection_tsx_39ff9f75._.js"
+])

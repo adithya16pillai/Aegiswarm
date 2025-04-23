@@ -1,0 +1,10 @@
+{
+  "/": "pages/index.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/analyze": "pages/api/analyze.js",
+  "/dashboard": "pages/dashboard.js",
+  "/features/anomaly-detection": "pages/features/anomaly-detection.js",
+  "/features/log-collection": "pages/features/log-collection.js",
+  "/features/threat-detection": "pages/features/threat-detection.js"
+}

@@ -1,0 +1,9 @@
+__turbopack_load_page_chunks__("/api/analyze", [
+  "static/chunks/[root-of-the-server]__e16602aa._.js",
+  "static/chunks/node_modules_next_b7851eaa._.js",
+  "static/chunks/node_modules_react-dom_82bb97c6._.js",
+  "static/chunks/node_modules_2a5cf4bb._.js",
+  "static/chunks/app_frontend_styles_globals_52f5fcda.css",
+  "static/chunks/app_frontend_pages_dashboard_5771e187._.js",
+  "static/chunks/app_frontend_pages_dashboard_d930edc5._.js"
+])
